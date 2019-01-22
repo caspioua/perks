@@ -113,7 +113,9 @@ textarea {
   margin: 13px 0 11px 16px;
 }
 
-
+.auth-user {
+  float: right;
+}
 
 
 
