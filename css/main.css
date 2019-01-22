@@ -97,7 +97,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.header {
+    height: 48px;
+    box-shadow: 0 1px 4px rgba(155, 155, 155, .5);
+}
 
+.main {
+    width: 960px;
+}
 
 
 
