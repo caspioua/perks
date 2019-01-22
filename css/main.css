@@ -115,6 +115,8 @@ textarea {
 
 .auth-user {
   float: right;
+  text-align: right;
+  margin: 8px 16px;
 }
 
 
