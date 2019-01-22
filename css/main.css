@@ -107,7 +107,7 @@ html {
   margin-bottom: 8px;
 }
 
-.main {
+.main, .inner-header {
   margin: auto;
   width: 960px;
 }
