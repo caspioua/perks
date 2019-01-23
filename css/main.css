@@ -143,6 +143,7 @@ h3 {
 .main-nav {
   height: 48px;
   width: 960px;
+  margin: auto;
   padding: 0;
   list-style: none;
   font-size: 16px;
