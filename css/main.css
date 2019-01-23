@@ -145,7 +145,7 @@ h3 {
 }
 
 .main-nav {
-  height: 48px;
+
   width: 960px;
   margin: auto;
   padding: 0;
@@ -153,9 +153,13 @@ h3 {
   font-size: 16px;
 }
 
+.main-nav-wrapper {
+  display: inline;
+}
+
 .main-nav > li {
   display: inline-block;
-  line-height: 48px;
+  line-height: 46px;
   margin-left: 40px;
   min-width: 96px;
   text-align: center;
