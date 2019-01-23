@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Caspio - Perks</title>
+  <title>Caspio - Perks Admin</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Caspio">
@@ -18,18 +18,44 @@
 </head>
 
 <body>
+  <script>
+    var v_dpTotalCount = 3;
+    var v_dpCounter = 0;
+  </script>
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
+<header class="header">
+  <div class="inner-header">
+    <a href="https://caspioua.github.io/perks/"><img class="main-logo" src="img/caspio-logo-02.png" alt="Caspio logo" /></a>
+    <div class="auth-user">
+      <script type="text/javascript" src="https://c3esh604.caspio.com/dp/05ff400056f6009e4a16456e9e4a/emb"></script>
+    </div>
+  </div>
+</header>
 
 <script type="text/javascript" src="https://c3esh604.caspio.com/dp/05ff4000b3e0a6caac5849d0a027/emb"></script>
-<div class="cxkg"><a href="https://c3esh604.caspio.com/dp/05ff4000b3e0a6caac5849d0a027">Click here</a> to load this Caspio <a href="http://www.caspio.com" target="_blank" title="Cloud Database">Cloud Database</a></div>
+
+<script type="text/javascript" src="https://c3esh604.caspio.com/dp/05ff40000fcab790ea54490c8429/emb"></script>
+  
 <!--  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script> -->
   <script src="js/main.js"></script>
-
+  <script type="text/javascript">
+    document.addEventListener('DataPageReady', function (v_e) 
+    {try{document.getElementsByName('cb-auth-box')[v_dpCounter].style.display = "none";}catch(v_e){}
+      v_dpCounter +=1;
+	    if( v_dpTotalCount <= v_dpCounter) 
+       {if(document.getElementsByName("cb-auth-box")) 
+         {var v_box = document.getElementsByName("cb-auth-box").length-1 ;
+	         for (i=0; i < v_box; i++) { document.getElementsByName("cb-auth-box")[i].style.display = "none" ; }
+		      try{document.getElementsByName("cb-auth-box")[v_box].style.display = "" ;}catch(v_e){}
+	       }
+	    }
+	  });
+  </script>
 
 </body>
 
