@@ -108,8 +108,12 @@ html {
 }
 
 .main, .inner-header {
-  margin: 32px auto;
+  margin: auto;
   width: 960px;
+}
+
+.main {
+  margin-top: 32px;
 }
 
 .main-logo {
