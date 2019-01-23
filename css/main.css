@@ -140,6 +140,23 @@ h3 {
   font-size: 25px;
 }
 
+.main-nav {
+  height: 48px;
+  width: 960px;
+  margin: auto;
+  list-style: none;
+}
+
+.main-nav > li {
+  display: inline-block;
+  line-height: 48px;
+  margin-left: 40px;
+}
+
+.nav-item-active {
+  color: #027FAA;
+  border-bottom: 2px #027FAA;
+}
 
 
 
