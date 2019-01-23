@@ -151,6 +151,8 @@ h3 {
   display: inline-block;
   line-height: 48px;
   margin-left: 40px;
+  min-width: 96px;
+  text-align: center;
 }
 
 .nav-item-active {
