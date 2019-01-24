@@ -127,6 +127,11 @@ html {
   margin: 4px 16px;
 }
 
+.auth-user a {
+  color: #027FAA;
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #777;
