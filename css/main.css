@@ -132,7 +132,7 @@ html {
   text-decoration: none;
 }
 
-.cb-auth-box [class^="cbTableDefaultCellspacing"] {
+[name="cb-auth-box"] [class^="cbTableDefaultCellspacing"] {
   margin: auto;
 }
 
