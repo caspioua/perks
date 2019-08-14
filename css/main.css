@@ -127,7 +127,8 @@ html {
   margin: 4px 16px;
 }
 
-.auth-user a {
+.auth-user a,
+.forgot-password a {
   color: #027FAA;
   text-decoration: none;
 }
