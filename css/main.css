@@ -127,9 +127,9 @@ html {
   margin: 4px 16px;
 }
 
-.forgot-password {
+/*.forgot-password {
   text-align: center;
-}
+}*/
 
 .auth-user a,
 .forgot-password a {
