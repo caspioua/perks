@@ -219,7 +219,9 @@ h3 {
   opacity: 1;
 }
 
-
+#caspioform > table {
+   margin: 0 auto;
+}
 
 
 
